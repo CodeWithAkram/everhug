@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/everhug/static/css/main.8bfb3aba.chunk.css",
+    "main.js": "/everhug/static/js/main.6e67e942.chunk.js",
+    "main.js.map": "/everhug/static/js/main.6e67e942.chunk.js.map",
+    "runtime-main.js": "/everhug/static/js/runtime-main.dad122fb.js",
+    "runtime-main.js.map": "/everhug/static/js/runtime-main.dad122fb.js.map",
+    "static/css/2.383c0125.chunk.css": "/everhug/static/css/2.383c0125.chunk.css",
+    "static/js/2.beb710d0.chunk.js": "/everhug/static/js/2.beb710d0.chunk.js",
+    "static/js/2.beb710d0.chunk.js.map": "/everhug/static/js/2.beb710d0.chunk.js.map",
+    "index.html": "/everhug/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/everhug/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.8bfb3aba.chunk.css.map": "/everhug/static/css/main.8bfb3aba.chunk.css.map",
+    "static/js/2.beb710d0.chunk.js.LICENSE.txt": "/everhug/static/js/2.beb710d0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dad122fb.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.beb710d0.chunk.js",
+    "static/css/main.8bfb3aba.chunk.css",
+    "static/js/main.6e67e942.chunk.js"
+  ]
+}
