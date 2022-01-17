@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Routes, Route } from "react-router-dom";
 
-function App() {
+import Home from './Home';
+import Aboutus from './Aboutus';
+import OurServices from './OurServices';
+import Contactus from './Contactus';
+import { Helmet } from "react-helmet";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Helmet>
+        <title>Welcome to Everhug</title>
+        <meta name="description" content="this is for Everhug" />
+      </Helmet>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/about" element={<Aboutus />} />
+        <Route exact path="/ourservices" element={<OurServices />} />
+        <Route exact path="/contact" element={<Contactus />} />
+      </Routes>
+
+
+
+    </>
   );
 }
 
